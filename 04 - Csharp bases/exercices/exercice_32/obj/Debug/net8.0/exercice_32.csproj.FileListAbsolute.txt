@@ -1,0 +1,15 @@
+C:\Users\admin\OneDrive - utopios\Bureau\fullstackDotNet2024_2025\01 - Csharp bases\exercices\exercice_32\bin\Debug\net8.0\exercice_32.exe
+C:\Users\admin\OneDrive - utopios\Bureau\fullstackDotNet2024_2025\01 - Csharp bases\exercices\exercice_32\bin\Debug\net8.0\exercice_32.deps.json
+C:\Users\admin\OneDrive - utopios\Bureau\fullstackDotNet2024_2025\01 - Csharp bases\exercices\exercice_32\bin\Debug\net8.0\exercice_32.runtimeconfig.json
+C:\Users\admin\OneDrive - utopios\Bureau\fullstackDotNet2024_2025\01 - Csharp bases\exercices\exercice_32\bin\Debug\net8.0\exercice_32.dll
+C:\Users\admin\OneDrive - utopios\Bureau\fullstackDotNet2024_2025\01 - Csharp bases\exercices\exercice_32\bin\Debug\net8.0\exercice_32.pdb
+C:\Users\admin\OneDrive - utopios\Bureau\fullstackDotNet2024_2025\01 - Csharp bases\exercices\exercice_32\obj\Debug\net8.0\exercice_32.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\OneDrive - utopios\Bureau\fullstackDotNet2024_2025\01 - Csharp bases\exercices\exercice_32\obj\Debug\net8.0\exercice_32.AssemblyInfoInputs.cache
+C:\Users\admin\OneDrive - utopios\Bureau\fullstackDotNet2024_2025\01 - Csharp bases\exercices\exercice_32\obj\Debug\net8.0\exercice_32.AssemblyInfo.cs
+C:\Users\admin\OneDrive - utopios\Bureau\fullstackDotNet2024_2025\01 - Csharp bases\exercices\exercice_32\obj\Debug\net8.0\exercice_32.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive - utopios\Bureau\fullstackDotNet2024_2025\01 - Csharp bases\exercices\exercice_32\obj\Debug\net8.0\exercice_32.sourcelink.json
+C:\Users\admin\OneDrive - utopios\Bureau\fullstackDotNet2024_2025\01 - Csharp bases\exercices\exercice_32\obj\Debug\net8.0\exercice_32.dll
+C:\Users\admin\OneDrive - utopios\Bureau\fullstackDotNet2024_2025\01 - Csharp bases\exercices\exercice_32\obj\Debug\net8.0\refint\exercice_32.dll
+C:\Users\admin\OneDrive - utopios\Bureau\fullstackDotNet2024_2025\01 - Csharp bases\exercices\exercice_32\obj\Debug\net8.0\exercice_32.pdb
+C:\Users\admin\OneDrive - utopios\Bureau\fullstackDotNet2024_2025\01 - Csharp bases\exercices\exercice_32\obj\Debug\net8.0\exercice_32.genruntimeconfig.cache
+C:\Users\admin\OneDrive - utopios\Bureau\fullstackDotNet2024_2025\01 - Csharp bases\exercices\exercice_32\obj\Debug\net8.0\ref\exercice_32.dll

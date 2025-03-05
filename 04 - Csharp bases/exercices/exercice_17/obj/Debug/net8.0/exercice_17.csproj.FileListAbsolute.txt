@@ -1,0 +1,5 @@
+C:\Users\Administrateur\Desktop\dotnet-171224\01 - Csharp bases\exercices\exercice_17\obj\Debug\net8.0\exercice_17.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Desktop\dotnet-171224\01 - Csharp bases\exercices\exercice_17\obj\Debug\net8.0\exercice_17.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Desktop\dotnet-171224\01 - Csharp bases\exercices\exercice_17\obj\Debug\net8.0\exercice_17.AssemblyInfo.cs
+C:\Users\Administrateur\Desktop\dotnet-171224\01 - Csharp bases\exercices\exercice_17\obj\Debug\net8.0\exercice_17.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\dotnet-171224\01 - Csharp bases\exercices\exercice_17\obj\Debug\net8.0\exercice_17.sourcelink.json
