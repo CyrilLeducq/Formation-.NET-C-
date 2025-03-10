@@ -14,6 +14,9 @@ const HomePage = () => {
             Sed quidem enim aliquid dolore libero quisquam error rerum. Consequatur totam aspernatur id unde fugit. Quo ipsam, maiores aperiam eaque autem quis iusto laborum, magnam, dolorum dolore reiciendis minus sed?
             Corrupti, voluptate a voluptas voluptatum quo quia. Consectetur error quasi vero officiis enim, ut delectus necessitatibus aperiam sed! Sunt, ullam nostrum tempora eum ducimus blanditiis molestias hic autem molestiae dicta.
             Molestiae quod perspiciatis facere, id veritatis beatae aut tempora quis nulla? Ab cum voluptatibus voluptate neque sit qui ipsam optio! Possimus blanditiis voluptas tempora beatae consequatur aperiam. Ad, perferendis reprehenderit!</p>
+            <Link to={"/profil/1?mode=1&darkMode=true"}>Toto</Link>
+            <Link to={"/profil/2"}>Tata</Link>
+            <Link to={"/profil/3"}>Titi</Link>
         </>
      );
 }

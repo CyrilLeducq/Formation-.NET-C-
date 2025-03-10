@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage"
 import FormPage from "./pages/FormPage"
 import ErrorPage from "./pages/ErrorPage"
 import NavBar from "./components/NavBar"
+import Profil from "./pages/Profil"
 
 const router = createBrowserRouter([
     // {path: "/", element: <HomePage />, errorElement: <ErrorPage />},
@@ -13,7 +14,8 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
             {path: "/", element: <HomePage />},
-            {path: "/form", element: <FormPage />}
+            {path: "/form", element: <FormPage />},
+            {path: "/profil/:id", element: <Profil />}
         ]
     }
 ])
