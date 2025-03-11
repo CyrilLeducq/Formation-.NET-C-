@@ -1,6 +1,8 @@
-import { Link } from "react-router-dom";
+import { Link, useOutletContext } from "react-router-dom";
 
 const HomePage = () => {
+
+    console.log(useOutletContext());
     return ( 
         <>
             <h1>HomePage</h1>
