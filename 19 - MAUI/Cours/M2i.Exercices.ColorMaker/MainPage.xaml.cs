@@ -28,8 +28,11 @@
 
             // On s'en sert pour générer trois valeurs entières aléatoires 
             redValue = rnd.Next(256);
+            redSlider.Value = redValue;
             greenValue = rnd.Next(256);
-             blueValue = rnd.Next(256);
+            greenSlider.Value = greenValue;
+            blueValue = rnd.Next(256);
+            blueSlider.Value = blueValue;
 
             UpdateDisplay();
         }

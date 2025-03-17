@@ -1,4 +1,4 @@
-﻿namespace M2i.Exercices.PerfectPay
+﻿namespace M2i.Learning.RessourcesExt
 {
     public partial class App : Application
     {
