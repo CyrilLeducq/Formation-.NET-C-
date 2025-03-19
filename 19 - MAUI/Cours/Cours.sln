@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2i.Learning.DataBinding", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2i.Learning.Pendu", "M2i.Learning.Pendu\M2i.Learning.Pendu.csproj", "{69463715-4A00-272A-D3A8-2008024DC9C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2i.Learning.CommandsConverters", "M2i.Learning.CommandsConverters\M2i.Learning.CommandsConverters.csproj", "{1195A13C-8455-44D1-958E-2AAD500B584C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2i.Learning.Navigation", "M2i.Learning.Navigation\M2i.Learning.Navigation.csproj", "{314C329A-2C31-4508-9174-74BAB2A4EB52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +69,18 @@ Global
 		{69463715-4A00-272A-D3A8-2008024DC9C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69463715-4A00-272A-D3A8-2008024DC9C3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{69463715-4A00-272A-D3A8-2008024DC9C3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1195A13C-8455-44D1-958E-2AAD500B584C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1195A13C-8455-44D1-958E-2AAD500B584C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1195A13C-8455-44D1-958E-2AAD500B584C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1195A13C-8455-44D1-958E-2AAD500B584C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1195A13C-8455-44D1-958E-2AAD500B584C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1195A13C-8455-44D1-958E-2AAD500B584C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{314C329A-2C31-4508-9174-74BAB2A4EB52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314C329A-2C31-4508-9174-74BAB2A4EB52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314C329A-2C31-4508-9174-74BAB2A4EB52}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{314C329A-2C31-4508-9174-74BAB2A4EB52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314C329A-2C31-4508-9174-74BAB2A4EB52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{314C329A-2C31-4508-9174-74BAB2A4EB52}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
