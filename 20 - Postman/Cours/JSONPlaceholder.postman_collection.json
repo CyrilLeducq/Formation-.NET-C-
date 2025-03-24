@@ -125,6 +125,34 @@
 		},
 		{
 			"name": "Create new user",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const response = pm.response.json();\r",
+							"\r",
+							"pm.test(\"Get status code 201\", () => {\r",
+							"    pm.expect(pm.response.code).to.eql(201);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Get back an object\", () => {\r",
+							"    pm.expect(response).to.be.an(\"object\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Get back a user with an id\", () => {\r",
+							"    pm.expect(response.id).to.be.a(\"number\");\r",
+							"    pm.expect(response.name).to.be.a(\"string\");\r",
+							"    pm.expect(response.username).to.be.a(\"string\");\r",
+							"});\r",
+							"\r",
+							"// Vérifier que l'utilisateur est bien ajouté en BdD"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -151,6 +179,37 @@
 		},
 		{
 			"name": "Edit user at id",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const response = pm.response.json();\r",
+							"\r",
+							"pm.test(\"Get status code 200\", () => {\r",
+							"    pm.expect(pm.response.code).to.eql(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Get back an object\", () => {\r",
+							"    pm.expect(response).to.be.an(\"object\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Get back a user\", () => {\r",
+							"    pm.expect(response.id).to.be.a(\"number\");\r",
+							"    pm.expect(response.name).to.be.a(\"string\");\r",
+							"    pm.expect(response.username).to.be.a(\"string\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Id wasn't changed\", () => {\r",
+							"    let responseId = response.id;\r",
+							"    pm.expect(responseId).to.eq(pm.collectionVariables.get(\"firstUserId\"));\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
 			"request": {
 				"method": "PUT",
 				"header": [],
@@ -184,6 +243,37 @@
 		},
 		{
 			"name": "Edit name of user at id",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const response = pm.response.json();\r",
+							"\r",
+							"pm.test(\"Get status code 200\", () => {\r",
+							"    pm.expect(pm.response.code).to.eql(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Get back an object\", () => {\r",
+							"    pm.expect(response).to.be.an(\"object\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Get back a user\", () => {\r",
+							"    pm.expect(response.id).to.be.a(\"number\");\r",
+							"    pm.expect(response.name).to.be.a(\"string\");\r",
+							"    pm.expect(response.username).to.be.a(\"string\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Id wasn't changed\", () => {\r",
+							"    let responseId = response.id;\r",
+							"    pm.expect(responseId).to.eq(pm.collectionVariables.get(\"firstUserId\"));\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
 			"request": {
 				"method": "PATCH",
 				"header": [],
@@ -217,6 +307,20 @@
 		},
 		{
 			"name": "Delete user at id",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Get status code 200\", () => {\r",
+							"    pm.expect(pm.response.code).to.eql(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
 			"request": {
 				"method": "DELETE",
 				"header": [],
