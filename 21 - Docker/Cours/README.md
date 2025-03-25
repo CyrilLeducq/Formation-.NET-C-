@@ -20,13 +20,21 @@ docker run <image-name>
 ```
 
 `-d` Pour le lancer en détaché
+
 `-i` Pour le lancer en liant l'entrée standard à celle du conteneur
+
 `-t` Pour activer les profils TTY
+
 `--name` Pour le nommer
+
 `-p <port-host>:<port-container>` Pour lier les ports hôtes à ceux du conteneur
+
 `-v <volume-name | path>:<path>` Pour créer un volume (anonyme / nommé) ou un bindmount (si chemin dans partie gauche) pour le conteneur
+
 `-e <variable-name>=<variable-value>` Pour ajouter des variables d'environement à notre conteneur
+
 `--rm` Pour supprimer le conteneur en cas d'arret
+`--network <network-name>` Pour brancher le conteneur à un réseau
 
 * Lister les images
 
@@ -80,4 +88,10 @@ docker start <id-container>
 
 ```bash
 docker exec <id-container> <command>
+```
+
+* Créer un réseau pour nos conteneurs 
+
+```bash
+docker network create <network-name>
 ```
