@@ -95,3 +95,43 @@ docker exec <id-container> <command>
 ```bash
 docker network create <network-name>
 ```
+
+* Build une image docker 
+
+```bash
+docker build -t <image-name> <dockerfile-path>
+```
+
+## Création de Dockerfiles
+
+```dockerfile
+# Pour choisir une image de départ
+FROM <image-name>
+
+# Pour copier des fichiers dans l'image de fin
+COPY <host-path> <container-path>
+
+# Pour ajouter des fichiers (et potentiellement les traiter, telle une archive à extraire dés le début) à l'image
+ADD <host-path> <container-path>
+
+# Choisir un dossier de travail (le créer au besoin)
+WORKDIR <host-directory-path>
+
+# Créer, si non existant, et se connecter en tant que tel utilisateur pour la suite des instructions de build
+USER <user-name>
+
+# Exécuter une commande durant la phase de build
+RUN ["command", "args", "args..."]
+RUN command args args...
+
+# Pour informer de l'utilisation d'un port par l'application, on peut utiliser cette instruction
+EXPOSE <port>
+
+# Choisir la commande de lancement de notre conteneur lors d'un 'docker run'
+CMD ["command", "args..."]
+
+# Choisir la commande de lancement (verrouillée à commencer par la valeur) de notre conteneur lors d'un 'docker run'
+ENTRYPOINT ["command"]
+
+
+```
