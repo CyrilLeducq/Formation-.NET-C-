@@ -1,13 +1,33 @@
-FROM node:alpine
+# FROM node:alpine
+
+# WORKDIR /app
+
+# COPY package*.json ./
+
+# RUN npm install 
+
+# COPY . .
+
+# EXPOSE 3000 2000
+
+# CMD ["npm", "start"]
+
+FROM node:alpine AS build
 
 WORKDIR /app
 
-COPY package*.json ./
+ADD package*.json ./
 
-RUN npm install 
+RUN npm install
 
-COPY . .
+COPY . . 
 
-EXPOSE 3000 2000
+RUN npm run build
 
-CMD ["npm", "start"]
+FROM nginx:stable-alpine AS deploy
+
+COPY --from=build /app/build /usr/share/nginx/html
+
+EXPOSE 80
+
+CMD [ "nginx", "-g", "daemon off;" ]

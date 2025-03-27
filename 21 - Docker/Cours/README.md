@@ -108,8 +108,14 @@ docker build -t <image-name> <dockerfile-path>
 # Pour choisir une image de départ
 FROM <image-name>
 
+# Il est possible de nommer nos étapes de sorte à les réutiliser par la suite dans le Dockerfile
+FROM <image-name> AS <stage-name>
+
 # Pour copier des fichiers dans l'image de fin
-COPY <host-path> <container-path>
+COPY <host-path> <contaùiner-path>
+
+# Pour copier des fichiers depuis une ancienne étape de notre build, on peut ajouter `--from=<stage-name>`
+COPY --from=<stage-name> <stage-a-path> <stage-b-path>
 
 # Pour ajouter des fichiers (et potentiellement les traiter, telle une archive à extraire dés le début) à l'image
 ADD <host-path> <container-path>
